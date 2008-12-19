@@ -34,6 +34,12 @@
         <p>
           Or maybe you would just prefer to stalk me on the internet. <a href="http://twitter.com/quamen">Twitter.</a> <a href="http://flickr.com/photos/quamen">Flickr.</a> <a href="http://ilikestuff.tumblr.com/">Tumblr.</a> <a href="http://github.com/quamen">github</a>
         </p>
+        <h1>Blog Posts</h1>
+          <ul class="posts">
+            {% for post in site.posts %}
+              <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
     	</div>
   </div>
 </div>
