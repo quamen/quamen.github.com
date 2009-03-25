@@ -11,27 +11,27 @@ At some point in time this comment made sense. Someone, somewhere had every inte
 
 It's quite possible that someone was you, but you don't remember anymore.
 
-h2. _todos_ are irrelevant
+h2. todos are irrelevant
 
-_todos_ live in no-mans land. Stuck in a time warp for all eternity. Don't kid yourself, you're never going to re-visit a _todo_. They're irrelevant.
+todos live in no-mans land. Stuck in a time warp for all eternity. Don't kid yourself, you're never going to re-visit a todo. They're irrelevant.
 
-They fly under the radar because they have no visibility. Out of sight, out of mind. If you're not working on the code with the _todo_, then you don't know it's there, and you don't care.
+They fly under the radar because they have no visibility. Out of sight, out of mind. If you're not working on the code with the todo, then you don't know it's there, and you don't care.
 
 Other than doing a project wide search, you're never going to find them all. Even if you do, you're not going to understand the meaning of them all.
 
 They're irrelevant.
 
-h2. making _todos_ relevant again
+h2. making todos relevant again
 
-What's the point of a _todo_ list if nobody knows about it?
+What's the point of a todo list if nobody knows about it?
 
-Take control of your _todos_ and enshrine them in code that everyone sees every day. Write them into your test suite as pending tests.
+Take control of your todos and enshrine them in code that everyone sees every day. Write them into your test suite as pending tests.
 
 Failing tests are bad. Passing tests are good. Pending tests are just plain annoying. 
 
 They clearly indicate that something hasn't been finished properly. They're visible every time you run your test suite. This means they annoy everyone until they're fixed.
 
-They define _todos_ better than any other mechanism at your disposal.
+They define todos better than any other mechanism at your disposal.
 
 h2. Sprinkle in a touch of guilt
 
