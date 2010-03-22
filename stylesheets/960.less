@@ -1,0 +1,108 @@
+
+@width: 960px;
+@number_of_columns: 12;
+@gutter_width: 20px;
+@column_width: (@width / @number_of_columns) - @gutter_width;
+
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: (@gutter_width + @column_width) * @number_of_columns;
+}
+
+/* Grids
+----------------------------------------------------------------------------------------------------*/
+
+.grid (@column_count: 1)
+{
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+	width: @column_width + ((@column_width + @gutter_width) * (@column_count - 1));
+}
+
+/* Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+
+/*.alpha {
+	margin-left: 0;
+}
+
+.omega {
+	margin-right: 0;
+}*/
+
+/* Prefix Extra Space >> 2 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.prefix(@column_count: 1)
+{
+	padding-left: @column_count * (@column_width + @column_gutter);
+}
+
+/* Suffix Extra Space >> 2 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.suffix(@column_count: 1)
+{
+	padding-right: @column_count * (@column_width + @column_gutter);
+}
+
+
+/* Push Space >> 2 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.push(@column_count: 1)
+{
+	left: @column_count * (@column_width + @column_gutter);
+}
+
+/* Pull Space >> 2 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.pull(@column_count: 1)
+{
+	right: @column_count * (@column_width + @column_gutter);
+}
+
+/* Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+
+/*.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}*/
