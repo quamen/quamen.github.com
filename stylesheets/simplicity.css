@@ -66,7 +66,9 @@ header {
   position: relative;
   margin-left: 10px;
   margin-right: 10px;
-  width: 940px;
+  width: 860px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 section#image, section#about {
   display: inline;
@@ -74,5 +76,7 @@ section#image, section#about {
   position: relative;
   margin-left: 10px;
   margin-right: 10px;
-  width: 460px;
+  width: 380px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
